@@ -1,0 +1,236 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+body{
+    font-family: verdana;
+}
+.sayt{
+    width: 95%;
+    height: 2000px;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-image: url(photos/200322500027_51514.jpg);
+}
+.menu1{
+    float: left;
+    width: 280px;
+    height: 700px;
+    background-color: darkred;
+    margin-left: 100px;
+    color: white;
+    position: fixed;
+    top: 0%;
+}
+.menu1 img{
+    margin-left: 75px ;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.menu1 p{
+    text-align: center;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.menu1 ul{
+    list-style: none;
+    margin-top: 50px;
+}
+.menu1 ul li{
+    height: 50px;
+    line-height: 50px;
+    background-color: Darkred;
+    text-align: center;
+    color: white;
+}
+.menu1 ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.menu1 ul li a:hover{
+    background-color: white;
+    color: Darkred;
+    font-weight: 600;
+}
+.menu{
+    float: right;
+    width: 790px;
+    height: 750px;
+    /* border: 1px solid blue; */
+    color: white;
+    margin-right: 70px;
+}
+#a1 hr{
+    width: 60px;
+    margin-left: 380px;
+    margin-top: 9px;
+}
+.menu h4{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 30px;
+}
+.menu p{
+    text-align: center;
+    margin-top: 10px ;
+    font-size: 13px;
+}
+.menu img{
+    float: left;
+    width: 350px;
+    height: 250px;
+}
+.b1{
+    margin-left: 380px;
+    line-height: 23px;
+}
+.b1 ul{
+    list-style: none;
+}
+.b1 ul li{
+    height: 40px;
+    width: 130px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    /* border: 1px solid black; */
+}
+.b1 ul li a{
+    display: block;    
+    width: 130px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    color:  Darkred;
+    font-weight: 600;
+}
+.b1 ul li a:hover{
+    background-color: white;
+    color: darkred;
+}
+.b2-left{
+    float: left;
+    line-height: 23px;
+    /* height: 250px;
+    width: 350px; */
+}
+.b2-left ul{
+    list-style: none;
+}
+.b2-left ul li{
+    height: 40px;
+    width: 130px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    /* border: 1px solid black; */
+}
+.b2-left ul li a{
+    display: block;    
+    width: 130px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    color:  Darkred;
+    font-weight: 600;
+}
+.b2-left ul li a:hover{
+    background-color: white;
+    color: darkred;
+}
+.b2-right img{
+    float: right;
+    width: 370px;
+    height: 220px;
+    /* margin-left: 500px; */
+}
+.menu2{
+    float: right;
+    width: 790px;
+    height: 750px;
+    /* border: 1px solid blue; */
+    color: white;
+    margin-right: 70px;
+}
+.menu2 h3{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+}
+.menu2 p{
+    text-align: center;
+    line-height: 20px;
+    font-size: 13px;
+}
+.first-box{
+    float: left;
+    width: 350px;
+    height: 250px;
+    border: 1px solid darkslategray;
+    margin-top: 40px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.second-box{
+    float: left;
+    width: 350px;
+    height: 250px;
+    border: 1px solid darkslategray;
+    margin-top: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.third-box{
+    float: left;
+    width: 350px;
+    height: 250px;
+    border: 1px solid darkslategray;
+    margin-top: 10px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+.fourth-box{
+    float: left;
+    width: 350px;
+    height: 250px;
+    border: 1px solid darkslategray;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.first-box img{
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.first-box h4{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.second-box img{
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.second-box h4{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.third-box img{
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.third-box h4{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.fourth-box img{
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.fourth-box h4{
+    padding-top: 20px;
+    padding-left: 10px;
+}
